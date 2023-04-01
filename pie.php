@@ -86,6 +86,13 @@ $jsonTable = json_encode($values);
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="pizza.css">
+  <style>
+    body{
+    background: #FFFFCC url('https://thumbs.gfycat.com/AdmirableFlimsyHousefly-max-1mb.gif') repeat center bottom fixed;
+
+  }
+  </style>
   <?php
     // Replace the script source with PHP to ensure the library is loaded correctly
     $googleChartsSrc = "https://www.gstatic.com/charts/loader.js";
@@ -160,6 +167,6 @@ $jsonTable = json_encode($values);
   </script>
 </head>
 <body>
-  <div id="piechart" style="width: 900px; height: 500px;"></div>
+  <div class="piechart" id="piechart" style="width: 900px; height: 500px;"></div>
 </body>
 </html>

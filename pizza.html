@@ -4,37 +4,51 @@
 <head>
   <meta charset="utf-8" />
   <title>피자 토핑 파이 만들기</title><br>
+  <link rel="stylesheet" href="pizza.css">
+  <style>
+    body{
+    background: #FFFFCC url('https://www.pizzanecklaces.com/wp-content/uploads/2019/12/pizza-gif-drake.gif') no-repeat center center fixed;
+
+  }
+  </style>
 </head>
 <body>
-    <h1>피자 토핑 파이 만들기</h1>
+
+  <p><span class="mainTitle" style="background: linear-gradient(to right, #ffa7a3, #5673bd); padding: 0.43em 1em; font-size: 19px; border-radius: 3px; color: #ffffff;">Let's topping the pizza!</span></p>
+
     <form method="POST" action="pie.php">
 
       <label for="one">토핑 1:</label>
-      <input type="text" id="one" name="one"><br>
-      <label for="per1">비율 :</label>
-      <input type="number" min="0" max="10" id="per1" name="per1"><br><br>
+      <input type="text" id="one" name="one"><br><br>
+      <label for="per1">Ratio :</label>
+      <input type="number" min="0" max="10" id="per1" name="per1"><br><br><br>
   
       <label for="two">토핑 2:</label>
-      <input type="text" id="two" name="two"><br>
-      <label for="per2">비율 :</label>
-      <input type="number" min="0" max="10" id="per2" name="per2"><br><br>
+      <input type="text" id="two" name="two"><br><br>
+      <label for="per2">Ratio :</label>
+      <input type="number" min="0" max="10" id="per2" name="per2"><br><br><br>
 
       <label for="three">토핑 3:</label>
-      <input type="text" id="three" name="three"><br>
-      <label for="per3">비율 :</label>
-      <input type="number" min="0" max="10" id="per3" name="per3"><br><br>
+      <input type="text" id="three" name="three"><br><br>
+      <label for="per3">Ratio :</label>
+      <input type="number" min="0" max="10" id="per3" name="per3"><br><br><br>
 
       <label for="four">토핑 4:</label>
-      <input type="text" id="four" name="four"><br>
-      <label for="per4">비율 :</label>
-      <input type="number" min="0" max="10" id="per4" name="per4"><br><br>
+      <input type="text" id="four" name="four"><br><br>
+      <label for="per4">Ratio :</label>
+      <input type="number" min="0" max="10" id="per4" name="per4"><br><br><br>
 
       <label for="five">토핑 5:</label>
-      <input type="text" id="five" name="five"><br>
-      <label for="per5">비율 :</label>
-      <input type="number" min="0" max="10" id="per5" name="per5"><br><br>
+      <input type="text" id="five" name="five"><br><br>
+      <label for="per5">Ratio :</label>
+      <input type="number" min="0" max="10" id="per5" name="per5"><br><br><br>
 
-      <input type="submit" value="Make a pie ! :)">
+      <!-- <input type="submit" value="Make a pie ! :)"> -->
+
+      <button class="pizzaBtn" type="submit">
+        Make a pie ! :)
+      </button>
+
     </form>
 </body>
 </html>
