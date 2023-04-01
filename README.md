@@ -1,5 +1,5 @@
 # PizzaPie
-Let's make custom pizza pie chart! :)
+Let's make custom pizza-pie-chart! :)
 
 Output:
 
